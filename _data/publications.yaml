@@ -1,33 +1,36 @@
 papers:
 
   - title: "Intracellular spatial transcriptomic analysis toolkit (InSTAnT)"
-    authors: "<b> Anurendra Kumar </b>, Alex W. Schrader, Bhavay Aggarwal, Ali Ebrahimpour Boroojeny, Marisa Asadian,JuYeon Lee, You Jin Song, Sihai Dave Zhao, Hee-Sun Han & Saurabh Sinha"
+    authors: "<b> Anurendra Kumar</b>, Alex W. Schrader, Bhavay Aggarwal, Ali Ebrahimpour Boroojeny, Marisa Asadian,JuYeon Lee, You Jin Song, Sihai Dave Zhao, Hee-Sun Han & Saurabh Sinha"
     venue: "Nature Communications, September 2024"
     paper_pdf: "/assets/publications/instant/instant_paper.pdf"
     code: "https://github.com/bhavaygg/InSTAnT"
     selected: y
 
   - title: "CoVA: Context-aware Visual Attention for Webpage Information Extraction"
-    authors: "<b> Anurendra Kumar* </b>, Keval Morabia*, Jingjin Wang, Kevin Chen-Chuan Chang, Alexander Schwing"
+    authors: "<b> Anurendra Kumar*</b>, Keval Morabia*, Jingjin Wang, Kevin Chen-Chuan Chang, Alexander Schwing"
     venue: "ACL 2022"
     paper_pdf: "/assets/publications/cova/2022.ecnlp-1.11.pdf"
     code: "https://github.com/kevalmorabia97/cova-web-object-detection"
     selected: y
 
   - title: "Monoaural Audio Source Separation using Variational Autoencoders"
-    authors: "<b>Anurendra Kumar* </b>, Laxmi Pandey*,  Vinay Namboodiri"
+    authors: "<b>Anurendra Kumar*</b>, Laxmi Pandey*,  Vinay Namboodiri"
     venue: "Interspeech 2018"
     paper_pdf: "/assets/publications/vae_interspeech/vae_interspeech.pdf"
+    code: "https://github.com/anurendra/vae_sep"
     selected: y
 
   - title: "Dirichlet latent variable model: A dynamic model based on dirichlet prior for audio processing"
-    authors: "<b>A Kumar </b>, T Guha, PK Ghosh"
+    authors: "<b>A Kumar</b>, T Guha, PK Ghosh"
     venue: "IEEE/ACM Transactions on Audio, Speech, and Language Processing 2018"
     paper_pdf: "/assets/publications/source_separation/taslp_source_separation.pdf"
+    code: "https://github.com/anurendra/dlvm"
     selected: y
 
   - title: "A Dynamic Latent Variable Model for Source Separation"
-    authors: "<b>A Kumar </b>, T Guha, PK Ghosh"
+    authors: "<b>A Kumar</b>, T Guha, PK Ghosh"
     venue: "ICASSP 2018"
     paper_pdf: "/assets/publications/source_separation/icassp_source_separation.pdf"
+    code: "https://github.com/anurendra/dlvm"
     selected: y
