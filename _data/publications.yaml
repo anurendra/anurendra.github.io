@@ -8,14 +8,14 @@ papers:
     selected: y
 
   - title: "CoVA: Context-aware Visual Attention for Webpage Information Extraction"
-    authors: "<b> Anurendra Kumar*</b>, Keval Morabia*, Jingjin Wang, Kevin Chen-Chuan Chang, Alexander Schwing"
+    authors: "<b> Anurendra Kumar<sup>‡</sup></b>, Keval Morabia<sup>‡</sup>, Jingjin Wang, Kevin Chen-Chuan Chang, Alexander Schwing"
     venue: "ACL 2022"
     paper_pdf: "/assets/publications/cova/2022.ecnlp-1.11.pdf"
     code: "https://github.com/kevalmorabia97/cova-web-object-detection"
     selected: y
 
   - title: "Monoaural Audio Source Separation using Variational Autoencoders"
-    authors: "<b>Anurendra Kumar*</b>, Laxmi Pandey*,  Vinay Namboodiri"
+    authors: "<b>Anurendra Kumar<sup>‡</sup></b>, Laxmi Pandey<sup>‡</sup>,  Vinay Namboodiri"
     venue: "Interspeech 2018"
     paper_pdf: "/assets/publications/vae_interspeech/vae_interspeech.pdf"
     code: "https://github.com/anurendra/vae_sep"
