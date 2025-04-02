@@ -1,11 +1,5 @@
 experiences:
 
-- place: "Georgia Institute of Technology"
-  time: "Fall 2022 - now"
-  title: "Ph.D. Student (transferred)"
-  subtitle: "Computer Science"
-  category: "school"
-
 - place: "Genentech"
   time: "Summer 2024"
   title: "Intern"
@@ -17,6 +11,12 @@ experiences:
   title: "Intern"
   subtitle: "Variant aware off-target prediction for GuideRNA"
   category: "work"
+
+- place: "Georgia Institute of Technology"
+  time: "Fall 2022 - now"
+  title: "Ph.D. Student (transferred)"
+  subtitle: "Computer Science"
+  category: "school"
 
 - place: "IBM Research"
   time: "Summer 2022"
