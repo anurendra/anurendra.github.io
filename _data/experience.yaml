@@ -9,13 +9,13 @@ experiences:
 - place: "Genentech"
   time: "Summer 2024"
   title: "Intern"
-  subtitle: "Biology research & AI Development"
+  subtitle: "Evaluation of single cell foundational models"
   category: "work"
 
 - place: "Vertex Pharmaceuticals"
   time: "Summer 2023"
   title: "Intern"
-  subtitle: "Data & Computational Sciences"
+  subtitle: "Variant aware off-target prediction for GuideRNA"
   category: "work"
 
 - place: "IBM Research"
@@ -24,23 +24,25 @@ experiences:
   subtitle: "Brain inspired AI"
   category: "work"
 
+- place: "IBM Research"
+  time: "Summer 2021"
+  title: "Intern"
+  subtitle: "AI for Biophysical systems"
+  category: "work"
+
+- place: "ServiceNow"
+  time: "Summer 2020"
+  title: "Intern"
+  subtitle: "Attentions models for information extraction from documents"
+  category: "work"
+
 - place: "University of illinois urbana-champaign"
   time: "2019 - 2022"
   title: "M.S. & Ph.D. Student"
   subtitle: "Computer Science"
   category: "school"
 
-- place: "IBM Research"
-  time: "Summer 2021"
-  title: "Intern"
-  subtitle: "AI for Biophysics"
-  category: "work"
 
-- place: "ServiceNow"
-  time: "Summer 2020"
-  title: "Intern"
-  subtitle: "Machine Learning for Web information extraction"
-  category: "work"
 
 - place: "Rivigo"
   time: "Summer 2019"
@@ -64,7 +66,7 @@ experiences:
 - place: "IBM Research"
   time: "Summer 2017"
   title: "Intern"
-  subtitle: "Hierarchical representation learning"
+  subtitle: "Hierarchical sparse representation learning"
   category: "work"
 
 - place: "IBM"
