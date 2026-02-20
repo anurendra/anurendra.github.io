@@ -1,5 +1,11 @@
 experiences:
 
+- place: "Stanford University"
+  time: "Aug 2025 - Present"
+  title: "Intern"
+  subtitle: "Evaluation of single cell foundational models"
+  category: "work"
+
 - place: "Genentech"
   time: "Summer 2024"
   title: "Intern"
@@ -13,7 +19,7 @@ experiences:
   category: "work"
 
 - place: "Georgia Institute of Technology"
-  time: "Fall 2022 - now"
+  time: "Fall 2022 - July 2025"
   title: "Ph.D. Student (transferred)"
   subtitle: "Computer Science (Minor in Biology)"
   category: "school"
