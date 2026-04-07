@@ -4,6 +4,7 @@ papers:
     authors: "<b> Anurendra Kumar</b>, Felix Rivera Moctezuma, Bhavay Aggarwal, Nicholas Zhang, Ahmet F Coskun & Saurabh Sinha"
     venue: "Biorxiv 2026"
     code: "https://github.com/anurendra/CellWHISPER"
+    selected: y
 
   - title: "Intracellular spatial transcriptomic analysis toolkit (InSTAnT)"
     authors: "<b> Anurendra Kumar</b>, Alex W. Schrader, Bhavay Aggarwal, Ali Ebrahimpour Boroojeny, Marisa Asadian,JuYeon Lee, You Jin Song, Sihai Dave Zhao, Hee-Sun Han & Saurabh Sinha"
