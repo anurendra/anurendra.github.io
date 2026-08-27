@@ -12,16 +12,20 @@ title: Home
 <p>
 I am driven by a simple question: how can we use complex genomic data to understand
   why disease unfolds the way it does, and how can that understanding lead to better
-  treatment? We can now generate far more biological hypotheses than we can test. The
-  bottleneck has moved from having ideas to deciding which ones deserve an experiment.
- <b> I build statistically rigorous computational layer that makes that call, </b> and keep it close enough to
-  experiment that it can be proven wrong. Over twenty years,
-  in cardiovascular diseases, I would like a drug to come out the other end.
+  treatment? Two kinds of evidence bear on this, and each is half an answer. Patients
+  tell us which variants and which molecular programs track with disease, but little
+  about why. Cells tell us mechanism, but not whether that mechanism matters at the
+  level of an organism. I build methods that join the two, and keep them close enough
+  to experiment to be proven wrong. Over twenty years, in cardiovascular disease, I
+  intend for a drug to come out the other end.
 </p>
 
  <p>
-  That call is hard to make because <b>models in genomics break when you move them</b>:
-  a new cell type, a new patient, a new perturbation, and performance quietly collapses.
+  Joining them is hard because <b>models in genomics break when you move them</b>:
+  a new cell type, a new patient, a new perturbation, and performance quietly
+  collapses. I believe, mechanism is what buys generalization. A model that encodes how signalling propagates
+  will transfer; one that pattern-matches will not. I build that structure in, then try
+  hard to break it. </p>
   <p style="text-align: center; margin: 2em 0;">
   <img src="{{ site.baseurl }}/assets/profile-pics/schematic_clin_cellOmics.jpeg"
        alt="Schematic: disease and perturbation atlases feed a mechanism-aware
@@ -31,9 +35,7 @@ I am driven by a simple question: how can we use complex genomic data to underst
        style="width: 100%; max-width: 760px; height: auto;">
 </p>
  
-  I believe, mechanism is what buys generalization. A model that encodes how signalling propagates
-  will transfer; one that pattern-matches will not. I build that structure in, then try
-  hard to break it.
+  
 
 <p>
   In practice this means modeling disease programs from single-cell and spatial
@@ -44,15 +46,20 @@ I am driven by a simple question: how can we use complex genomic data to underst
   cancer cell lines, because that is what is cheap to screen; the cells that matter are
   cardiomyocytes. What survives that gap is the mechanistic part. I work closely with
   experimentalists so that predictions meet iPSC-derived models quickly enough to fail
-  fast.
+  fast.</p>
 
 <p>
-  A parallel thread runs throughout: characterizing where these methods fail. Spatial
-transcriptomics data is dominated by structured confounding. Tissue architecture and local composition
-  manufacture convincing patterns, and conditioning on them changes the biology you
-  conclude. That finding drove my PhD work on subcellular RNA organization
-  (<i>InSTAnT</i>, Nature Communications 2024) and on cell–cell communication in spatial
-  data (<i>CellWHISPER</i>, bioRxiv 2026).
+  A parallel thread runs throughout: characterizing where these methods fail. Much of
+  the day-to-day work is statistical — building null models that respect how tissue is
+  actually organized, checking whether an effect survives conditioning on composition,
+  asking whether a benchmark's ground truth is circular. Spatial data is dominated by
+  structured confounding. Tissue architecture and local composition manufacture
+  convincing patterns, and conditioning on them changes the biology you conclude. That
+  finding drove my PhD work on subcellular RNA organization (<i>InSTAnT</i>, Nature
+  Communications 2024) and on cell–cell communication in spatial data
+  (<i>CellWHISPER</i>, bioRxiv 2026). The same instinct runs through my current work on
+  variant effect prediction, where the failure modes of widely used predictors turn out
+  to be correlated rather than independent, so ensembling does not rescue them.</p>
 
 <p>
 I have also interned at Genentech, Vertex, IBM Research (4×), and others, and briefly explored a startup, experiences that taught me a great deal about building end-to-end systems.
