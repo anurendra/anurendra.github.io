@@ -4,73 +4,75 @@ title: Home
 ---
 <!-- ========== BIO ========== -->
 <!-- ========== BIO ========== -->
+<!-- ========== BIO ========== -->
 <div class="docs-section" id="bio">
 
-  <p><b>Postdoctoral Scholar</b>, Stanford University. Mechanism-aware AI for genomics.</p>
-  <p style="font-size: 1.25em; line-height: 1.1; font-weight: 400;
-          margin-top: 0; margin-bottom: 1.1em;">
-  <span style="display: block;">Models in genomics break when you move them.</span>
-  <span style="display: block; color: #9a9a9a;">I work on why.</span>
+  <p><b>Postdoctoral Scholar</b>, Stanford Cardiovascular Institute. Mechanism-aware AI for genomics.</p>
+
+  <p><b>Models in genomics break when you move them. I work on why.</b></p>
+
+<p>
+  I am a postdoc with <a href="https://med.stanford.edu/wulab.html">Joseph C. Wu</a>,
+  co-mentored by <a href="https://researchers.mgh.harvard.edu/profile/12119448/Luca-Pinello">Luca Pinello</a>
+  and supported by the Sandy and Joan Weill CVI Postdoctoral Grant. I did my PhD with
+  <a href="https://sites.google.com/view/sinhalaboratorygatech">Saurabh Sinha</a> at Georgia Tech.
 </p>
 
   <p>
-    I want to understand why disease unfolds the way it does, well enough to treat it. 
+    I want to understand why disease unfolds the way it does, well enough to treat it.
     Two kinds of data speak to this, and they sit at opposite ends of the same causal chain.
   </p>
 
   <div style="margin: 2.2em 0; padding-left: 1.4em; border-left: 2px solid #e8e8e8;">
-  <p style="margin-bottom: 0.7em;">
-    A perturbation screen gives a cause and an effect days apart. High resolution,
-    no outcome at the organism level.
-  </p>
-  <p style="margin-bottom: 0.7em;">
-    Human genetics gives a cause and an effect four decades apart. A real intervention,
-    a real endpoint, nothing in between.
-  </p>
-  <p style="margin-bottom: 0;">
-    The middle is missing. Mechanism is what fills it.
-  </p>
-</div>
-  
+    <p style="margin-bottom: 0.7em;">
+      A perturbation screen gives a cause and an effect days apart. High resolution,
+      no outcome at the organism level.
+    </p>
+    <p style="margin-bottom: 0.7em;">
+      Human genetics gives a cause and an effect four decades apart. A real intervention,
+      a real endpoint, nothing in between.
+    </p>
+    <p style="margin-bottom: 0;">
+      The middle is missing. Mechanism is what fills it.
+    </p>
+  </div>
+
   <p>
-  I work at the level of cells and genes, the finest resolution at which that chain is 
-    still visible, and specifically on signaling. The recurring problem is that models break the moment you move them. 
-    A new cell type, a new patient, a new perturbation, and performance quietly collapses. 
-    My working hypothesis is that mechanism is what buys generalization.
-    In modeling terms it is an inductive bias, and one of the few with a plausible claim to being true. 
-    Statistics is the other half of the method. It tells me when the data cannot support 
-    the structure I want to impose. Over the next twenty years, I want a drug for 
-    cardiovascular disease to come out the other end.
-</p>
-
-
+    I work at the level of cells and genes, the finest resolution at which that chain is
+    still visible, and specifically on signaling. Move a model to a new cell type, a new
+    patient, or a new perturbation, and performance quietly collapses. My working
+    hypothesis is that mechanism is what buys generalization. In modeling terms it is an
+    inductive bias, and one of the few with a plausible claim to being true. Statistics is
+    the other half of the method. It tells me when the data cannot support the structure
+    I want to impose. Over the next twenty years, I want a drug for cardiovascular disease
+    to come out the other end.
+  </p>
 
   <p style="text-align: center; margin: 2em 0;">
-       <img src="{{ site.baseurl }}/assets/profile-pics/schematic_clin_cellOmics.jpeg"
-       alt="Schematic: disease and perturbation atlases feed a mechanism-aware
-            model across a context shift; the model prioritizes interventions
-            that are tested in iPSC-derived cardiomyocytes, which feed back to
-            falsify and refine the model."
-       style="width: 100%; max-width: 760px; height: auto;">
+    <img src="{{ site.baseurl }}/assets/profile-pics/schematic_clin_cellOmics.jpeg"
+         alt="Schematic: disease and perturbation atlases feed a mechanism-aware
+              model across a context shift; the model prioritizes interventions
+              that are tested in iPSC-derived cardiomyocytes, which feed back to
+              falsify and refine the model."
+         style="width: 100%; max-width: 760px; height: auto;">
   </p>
 
   <p>
-     My focus is genetic disease, starting with dilated cardiomyopathy. Nearly all large-scale perturbation 
-    data comes from cancer cell lines, because they are cheap to screen. The cells that 
-    matter are cardiomyocytes. What carries across that gap, and what does not, 
-    is the question I keep coming back to.
-
+    My focus is genetic disease, starting with dilated cardiomyopathy. Nearly all
+    large-scale perturbation data comes from cancer cell lines, because they are cheap to
+    screen. The cells that matter are cardiomyocytes. What carries across that gap, and
+    what does not, is the question I keep coming back to.
   </p>
 
   <p>
-      Most of my work so far has been in spatial omics, one of the few places the middle is 
-    directly visible: cells in real tissue, and which of them talk to each other. The 
-    question running through it is how a ligand's effect propagates through cells: who 
-    sends it, who receives it, and what changes downstream. CellWHISPER (bioRxiv 2026) is 
-    the first published piece of it, and the same idea now shapes my current projects. 
-    The statistical half started in my PhD, with the finding that spatial data is dominated 
-    by structured confounding: tissue architecture and local composition manufacture 
-    convincing patterns (InSTAnT, Nature Communications 2024). 
+    Most of my work so far has been in spatial omics, one of the few places the middle is
+    directly visible: cells in real tissue, and which of them talk to each other. The
+    question running through it is how a ligand's effect propagates through cells: who
+    sends it, who receives it, and what changes downstream. <i>CellWHISPER</i> (bioRxiv 2026)
+    is the first published piece of it, and the same idea now shapes my current projects.
+    The statistical half started in my PhD, with the finding that spatial data is dominated
+    by structured confounding: tissue architecture and local composition manufacture
+    convincing patterns (<i>InSTAnT</i>, Nature Communications 2024).
   </p>
 
   <p>
